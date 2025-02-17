@@ -1,0 +1,40 @@
+class Cal
+{
+    int num1,num2;
+    
+    Cal(int a, int b)
+    {
+        num1 = a;
+        num2 = b;
+    }
+    
+    void add(){
+    System.out.println(num1 + num2);
+    }
+    
+    void sub(){
+    System.out.println(num1 - num2);
+    }
+    
+    void mul(){
+    System.out.println(num1 * num2);
+    }
+    
+    void div(){
+    System.out.println(num1 / num2);
+    }
+}
+
+public class Main
+{
+	public static void main(String[] args) {
+	    
+	    
+		Cal q=new Cal(10,5);
+		q.add();
+		q.sub();
+		q.mul();
+		q.div();
+	}
+}
+
